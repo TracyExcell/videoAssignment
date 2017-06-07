@@ -67,49 +67,44 @@ p {
     height: 20px;
     width: 20px;
     position: absolute;
-   
 }
 
 #play_pause{
     left: 29%;
-    bottom: 37%;
-    
+    bottom: 57%;    
 }
 
-
 .volumeOn {
-    bottom: 37%;
+    bottom: 57%;
     right: 31%;
 }
 
-
-
 .fullScreen {
-    bottom: 37%;
+    bottom: 57%;
     right: 28%;
 }
 
 #current {
     position: absolute;
     color: white;
-     left: 33%;
-    bottom: 37%;
+    left: 33%;
+    bottom: 57%;
 } 
 
 
 #duration {
     position: absolute;
     color: white;
-     left: 37%;
-    bottom: 37%;
+    left: 37%;
+    bottom: 57%;
 } 
 
 #seekBar {
-    position: absolute;
-    bottom: 37%;
-    left: 27.15%;
-    width: 618px;
-    height: 3px;
+    position: fixed;
+    bottom: 57%;
+    left: 25.8%;
+    width: 616px;
+    height: 5px;
     overflow: hidden;
     
     
