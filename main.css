@@ -106,10 +106,51 @@ p {
     width: 616px;
     height: 5px;
     overflow: hidden;
-    
-    
+        
 }
 
+@-moz-document url-prefix() { 
+ 
+    #seekBar {
+    position: fixed;
+    bottom: 69%;
+    left: 18.5%;
+    width: 615px;
+    height: 5px;
+    overflow: hidden;
+        
+}
+    
+#duration {
+    position: absolute;
+    color: white;
+    left: 33%;
+    bottom: 68%;
+} 
+
+#play_pause{
+    left: 23%;
+    bottom: 68%;    
+}
+
+.volumeOn {
+    bottom: 68%;
+    right: 28%;
+}
+
+.fullScreen {
+    bottom: 68%;
+    right: 22%;
+}
+
+#current {
+    position: absolute;
+    color: white;
+    left: 29%;
+    bottom: 68%;
+} 
+  
+}
 
 /*-----Progress Bar / Seek Bar Styling------ */ 
 
