@@ -71,16 +71,16 @@ p {
 
 #play_pause{
     left: 29%;
-    bottom: 57%;    
+    bottom: 49%;    
 }
 
 .volumeOn {
-    bottom: 57%;
+    bottom: 49%;
     right: 31%;
 }
 
 .fullScreen {
-    bottom: 57%;
+    bottom: 49%;
     right: 28%;
 }
 
@@ -88,7 +88,7 @@ p {
     position: absolute;
     color: white;
     left: 33%;
-    bottom: 57%;
+    bottom: 49%;
 } 
 
 
@@ -96,13 +96,13 @@ p {
     position: absolute;
     color: white;
     left: 37%;
-    bottom: 57%;
+    bottom: 49%;
 } 
 
 #seekBar {
     position: fixed;
-    bottom: 57%;
-    left: 25.8%;
+    bottom: 50%;
+    left: 25.6%;
     width: 616px;
     height: 5px;
     overflow: hidden;
@@ -114,7 +114,7 @@ p {
     #seekBar {
     position: fixed;
     bottom: 69%;
-    left: 18.5%;
+    left: 11.5%;
     width: 615px;
     height: 5px;
     overflow: hidden;
@@ -124,29 +124,29 @@ p {
 #duration {
     position: absolute;
     color: white;
-    left: 33%;
+    left: 28%;
     bottom: 68%;
 } 
 
 #play_pause{
-    left: 23%;
+    left: 16%;
     bottom: 68%;    
 }
 
 .volumeOn {
     bottom: 68%;
-    right: 28%;
+    right: 20%;
 }
 
 .fullScreen {
     bottom: 68%;
-    right: 22%;
+    right: 15%;
 }
 
 #current {
     position: absolute;
     color: white;
-    left: 29%;
+    left: 22%;
     bottom: 68%;
 } 
   
@@ -206,7 +206,11 @@ p {
     opacity: 0;
 }
 
- #hover_container:hover .tag{
+ #hover_container:hover #play_pause, 
+ #hover_container:hover .volumeOn, 
+ #hover_container:hover .fullScreen,
+ #hover_container:hover #current, 
+ #hover_container:hover #duration {
     opacity: 1;
 }
 
