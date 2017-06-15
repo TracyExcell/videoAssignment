@@ -20,7 +20,7 @@ body {
 /*------- Video Code---------*/
 
 #video-container{
-   width: 620px;
+   max-width: 620px;
    height: 500px;
    display: block;
    margin:auto;
@@ -50,9 +50,16 @@ video {
     background-color: white;
     width: 620px;
     display: block;
-    margin: auto;
+    margin: 0 auto;
     margin-top: -5em;
-    padding: 20px 10px;
+    padding: 30px 10px;
+}
+
+@supports (-ms-ime-align:auto) {
+ #transcript {
+  margin-top: 0;
+}
+
 }
 
 
@@ -70,87 +77,44 @@ p {
 }
 
 #play_pause{
-    left: 29%;
-    bottom: 49%;    
+    left: 5%;
+    bottom: 20%;    
 }
 
 .volumeOn {
-    bottom: 49%;
-    right: 31%;
-}
-
-.fullScreen {
-    bottom: 49%;
-    right: 28%;
-}
-
-#current {
-    position: absolute;
-    color: white;
-    left: 33%;
-    bottom: 49%;
-} 
-
-
-#duration {
-    position: absolute;
-    color: white;
-    left: 37%;
-    bottom: 49%;
-} 
-
-#seekBar {
-    position: fixed;
-    bottom: 50%;
-    left: 25.6%;
-    width: 616px;
-    height: 5px;
-    overflow: hidden;
-        
-}
-
-@-moz-document url-prefix() { 
- 
-    #seekBar {
-    position: fixed;
-    bottom: 69%;
-    left: 11.5%;
-    width: 615px;
-    height: 5px;
-    overflow: hidden;
-        
-}
-    
-#duration {
-    position: absolute;
-    color: white;
-    left: 28%;
-    bottom: 68%;
-} 
-
-#play_pause{
-    left: 16%;
-    bottom: 68%;    
-}
-
-.volumeOn {
-    bottom: 68%;
-    right: 20%;
-}
-
-.fullScreen {
-    bottom: 68%;
+    bottom: 20%;
     right: 15%;
 }
 
+.fullScreen {
+    bottom: 20%;
+    right: 5%;
+}
+
 #current {
     position: absolute;
     color: white;
-    left: 22%;
-    bottom: 68%;
+    left: 15%;
+    bottom: 20%;
 } 
-  
+
+
+#duration {
+    position: absolute;
+    color: white;
+    left: 22%;
+    bottom: 20%;
+} 
+
+#seekBar {
+    position: absolute;
+    bottom: 20%;
+    width: 620px;
+    height: 5px;
+    overflow: hidden;
+        
 }
+
 
 /*-----Progress Bar / Seek Bar Styling------ */ 
 
